@@ -1,0 +1,293 @@
+body{
+	_width: 1077px;
+	_width: 100%;
+	_height: auto;
+	margin: 0px;
+	padding: 0px;
+	_border: 1px dashed red;
+
+	_width: 1077px;
+	_width: 100%;
+	_height: auto;
+	_margin:0px 52px;
+	_padding:0px 2px;
+	_border: 1px dashed red;
+}
+
+.container{
+	width: 1077px;
+	_width: 962px;
+	_width: 100%;
+	height: auto;
+	_border: 1px solid black;
+	_margin-bottom: 10px;
+	_margin: 0px;
+	min-height: 20px;
+
+}
+
+.header{
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #dd845a;
+	background-image: url(light_bulb.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.header h1{
+	margin: 0px;
+	padding: 20px;
+	color: white;
+	
+}
+
+
+.center-text{
+	text-align: center;
+}
+
+.header-color{
+	color: #dd845a;
+}
+
+.navbar{
+	_margin: auto;
+	_width: 0px;
+	_padding: 10px;
+	_border: 1px solid blue;
+	background-color: #333;
+	
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    _border: 1px solid #e7e7e7;
+    _background-color: #f3f3f3;
+    background-color: #333;
+
+    display: table;
+    margin:0 auto;
+}
+
+
+.nav-list li{
+	display: inline-block;
+	border: 1px solid #d7b4b4;
+	margin:10px;
+	_background-color: yellow;
+	_padding: 10px; 
+
+	_float: left;
+}
+
+.nav-list li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+
+.nav-list li a:hover:not(.active){
+	background-color: #dba07e;
+	color: #123;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.main-contents{
+	_width:800px;
+	min-height: 300px;
+	_border:1px dashed blue;
+
+	overflow: hidden;
+}
+
+.left-sidebar{
+	_width:200px;	/*width 962*/
+	width:200px;
+	_height: 200px;
+	_padding: 8px;
+	margin: 8px;
+	_border: 1px solid red;
+	float: left;
+	_min-height: 280px;
+	border-radius: 10px;
+	background-color: #f5f5f5;
+}
+
+.left-sidebar-list a{
+	display: block;
+    color: #333;
+    text-align: center;
+    padding: 10px 12px;
+    border: 1px solid #d7b4b4;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.left-sidebar-list a:hover{
+	background-color: #dba07e;
+	color: white;
+}
+
+.left-sidebar-f-item{
+	border-radius: 10px 10px 0 0;
+}
+
+.left-sidebar-l-item{
+	border-radius: 0 0 10px 10px;
+}
+
+.contents{
+	_width:478px;	/*width 962*/
+	width:608px;
+	_height: 200px;
+	_padding: 8px;
+	margin: 8px;
+	_border: 1px solid red;
+	float: left;
+}
+
+.before-contents{
+	width:586px;
+	padding: 10px;
+	margin: 0px 0px 5px 0px;
+	border: 1px solid red;
+	border-radius: 10px;
+	float: left;
+}
+
+.mid-contents{
+	width:586px;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid red;
+	border-radius: 10px;
+	float: left;
+}
+
+.products{
+	width: 584px;
+	height: auto;
+	margin: 10px 0px;
+	border: 1px solid green;
+	min-height: 200px;
+	overflow: hidden;
+	border-radius: 10px;
+	background-color: #f5f5f5;
+}
+
+.products-pic{
+	width: 152px;
+	height: 152px;
+	margin: 10px 0px 12px 10px;
+	_border: 1px solid green;
+	min-height: 150px;
+	float: left;
+}
+
+.products-pic img{
+	width: 152px;
+	height: 152px;
+	border-radius: 10px;
+}
+
+.products-details{
+	width: 406px;
+	height: 150px;
+	margin: 10px 0px 14px 6px;
+	padding: 0px;
+	_border: 1px solid green;
+	min-height: 150px;
+	float: left;
+
+}
+
+.products-details h2,
+.products-details h3,
+.products-details p{
+	margin: 0px 0px 10px 5px;
+	padding: 0px;
+}
+
+.add-to-cart button{
+	display: table;
+    margin: auto;
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-bottom: 8px;
+    background-color: yellow;
+}
+
+
+.after-contents{
+	width:586px;
+	padding: 10px;
+	margin: 0px 0px 5px 0px;
+	border: 1px solid red;
+	border-radius: 10px;
+	float: left;
+}
+
+.right-sidebar{
+	_width:200px;	/*width 962*/
+	width:200px;
+	padding: 8px;
+	margin: 8px;
+	border: 1px solid #d7b4b4;
+	border-radius: 10px;
+	float: left;
+	background-color: #f5f5f5;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+.form-item{
+    display: block;
+    width: 158px;
+    height: 34px;
+    padding: 6px 12px;
+    margin: 8px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+   
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button{
+	width: 158px;
+    height: 34px;
+    padding: 6px 12px;
+    margin: 0px 21px 10px;
+
+	color: white;
+    background-color: green;
+    _border-color: #ccc;
+    border-radius: 10px;
+}
+
+
+.footer{
+	_margin: 0px;
+	padding: 10px;
+	
+	background-color:black;
+}
+
+.footer p{
+	color: white;
+}
